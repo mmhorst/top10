@@ -21,7 +21,7 @@ python3 setup.py
 This will download all NLTK data and required packages onto your machine.
 
 ## Deployment:
-To use Top 10, run the following command:
+After installing the requirements file and the setup file, Top 10 is ready to scrape and analyze tweets. To use Top 10, run the following command:
 ```
 python3 gettweets.py
 ```
