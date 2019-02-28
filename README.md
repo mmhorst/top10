@@ -1,6 +1,4 @@
-
-
-### Top 10 
+# Top 10 
 
 
 ## About:
@@ -8,8 +6,7 @@ Top 10 is a useful programmatic tool that displays the most frequently-used cont
 
 ## Getting started:
 To download the latest version of Python please visit: https://www.python.org/downloads/
-The files requirements.txt and setup.py have been provided to help installation run smoothly. Ensure that these files as well as the script gettweets.py are placed in the same directory 
-that is used to run other similar Python programs
+The file [requirements.txt](/requirements.txt) and [setup.py](setup.py) have been provided to help installation run smoothly. Ensure that these files as well as the script gettweets.py are placed in the same directory that is used to run other similar Python programs
 
 ## Installation:
 Top 10 requires certain Python packages found in requirements.txt to run. To install these packages using the latest Package Installer for Python, run the command: 
@@ -29,6 +26,10 @@ python3 gettweets.py
 Then follow the prompts given by Top 10 in the command terminal to specify Twitter handles and number of tweets. 
 
 ## Comparisons of interest:
+The following pairs of twitter handles and tweet numbers produce interesting results:
+
+@realdonaldtrump @barackobama 2800 (Donald Trump and Barack Obama)
+@sensanders @senwarren 2450 (Bernie Sanders and Elizabeth Warren)
 
 ## FAQS
 During the installation or useage of Top 10, you may encounter the following errors:
@@ -42,11 +43,11 @@ b) Ensure that all requirements are installed using
 pip3 install -r requirements.txt
  ```
 
-# 2) error when running nltk.download()
+### 2) error when running nltk.download()
 ```
 [SSL: CERTIFICATE_VERIFY_FAILED]
 ```
-a) See [this useful link] (https://stackoverflow.com/questions/41348621/ssl-error-downloading-nltk-data) for NLTK error resolution with Mac OS.
+a) See https://stackoverflow.com/questions/41348621/ssl-error-downloading-nltk-data for NLTK error resolution with Mac OS.
 b) Run:
 ```
 Applications/Python\ 3.7/Install\ Certificates.command 
@@ -54,12 +55,12 @@ Applications/Python\ 3.7/Install\ Certificates.command
 in terminal to bypass certificate verification.
 
 
-# 3) error when running gettweets.py script
+### 3) error when running gettweets.py script
 ```
 twitter.error.TwitterError: [{'message': 'Rate limit Exceeded', 'code': 88}]
 ```
 a) Twitter imposes rate limiting based either on user tokens or application tokens. 
-Please read [this Twitter Documentation] (https://developer.twitter.com/en/docs/basics/rate-limiting) for a more detailed explanation of Twitter’s policies.
+Please read https://developer.twitter.com/en/docs/basics/rate-limiting for a more detailed explanation of Twitter’s policies.
 b) Wait approximately 15 minutes, then try to run the command again. 
 c) This error also happens when gettweets.py attempts to scrape the tweets of a Twitter User who has no tweets on their timeline. If this is the case, gettweets.py should be run on a valid, active twitter handle after the 15 minute rest period. 
 
