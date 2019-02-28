@@ -27,10 +27,13 @@ python3 gettweets.py
 Then follow the prompts given by Top 10 in the command terminal to specify Twitter handles and number of tweets. 
 
 ## Comparisons of interest:
-The following pairs of twitter handles and tweet numbers produce interesting results:
+The following pairs of twitter handles and tweet numbers produce interesting results. What patterns can you uncover?
 
-@realdonaldtrump @barackobama 2800 (Donald Trump and Barack Obama)
-@sensanders @senwarren 2450 (Bernie Sanders and Elizabeth Warren)
+@realdonaldtrump @barackobama 2800    (Donald Trump and Barack Obama)
+
+@sensanders @senwarren 2450    (Bernie Sanders and Elizabeth Warren)
+
+@uwlinguistics @languagemit 700    (UW Linguistics and Ted Gibson's Language Lab at MIT)
 
 ## FAQS
 During the installation or useage of Top 10, you may encounter the following errors:
@@ -64,5 +67,3 @@ a) Twitter imposes rate limiting based either on user tokens or application toke
 Please read https://developer.twitter.com/en/docs/basics/rate-limiting for a more detailed explanation of Twitter’s policies.
 b) Wait approximately 15 minutes, then try to run the command again. 
 c) This error also happens when gettweets.py attempts to scrape the tweets of a Twitter User who has no tweets on their timeline. If this is the case, gettweets.py should be run on a valid, active twitter handle after the 15 minute rest period. 
-
-
