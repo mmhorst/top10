@@ -5,7 +5,8 @@
 Top 10 is a useful programmatic tool that displays the most frequently-used content words by two distinct Twitter handles. It is intended for prelimiary data exploration of a user's latest tweets. Top 10 excludes retweets, @mentions, URL links, and hashtags to focus solely on the most informative words tweeted, up to 3200 tweets.
 
 ## Getting started:
-To download the latest version of Python please visit: https://www.python.org/downloads/
+To download the latest version of Python please visit: https://www.python.org/downloads/ 
+
 The file [requirements.txt](/requirements.txt) and [setup.py](setup.py) have been provided to help installation run smoothly. Ensure that these files as well as the script [gettweets.py](/gettweets.py) are placed in the same directory that is used to run other similar Python programs
 
 ## Installation:
