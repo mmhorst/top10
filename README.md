@@ -1,6 +1,6 @@
 
 
-##### Top 10 
+### Top 10 
 
 
 ## About:
@@ -22,19 +22,18 @@ python3 setup.py
 ```
 
 ## Deployment:
-To run Top 10, run the following command:
+To use Top 10, run the following command:
 ```
 python3 gettweets.py
 ```
-And follow the prompts given by Top 10 in the command terminal to specify Twitter handles and number of tweets. 
+Then follow the prompts given by Top 10 in the command terminal to specify Twitter handles and number of tweets. 
 
 ## Comparisons of interest:
 
 ## FAQS
-How to handle the following errors:
-1.
+During the installation or useage of Top 10, you may encounter the following errors:
+# 1) error in command terminal
 ```
-error in command terminal-
 ‘some package’ is not recognized as an internal or external command, operable program or batch file.
 ```
 a) Double check that the path of the location of gettweets.py is part of the system’s environmental variables. For help editing path variables, see: https://www.computerhope.com/issues/ch000549.htm  
@@ -42,25 +41,26 @@ b) Ensure that all requirements are installed using
 ```
 pip3 install -r requirements.txt
  ```
-2. 
-error when running nltk.download()-
-[SSL: CERTIFICATE_VERIFY_FAILED]
 
-a) See https://stackoverflow.com/questions/41348621/ssl-error-downloading-nltk-data for NLTK error resolution with Mac OS
+# 2) error when running nltk.download()
+```
+[SSL: CERTIFICATE_VERIFY_FAILED]
+```
+a) See [this useful link] (https://stackoverflow.com/questions/41348621/ssl-error-downloading-nltk-data) for NLTK error resolution with Mac OS.
 b) Run:
 ```
 Applications/Python\ 3.7/Install\ Certificates.command 
 ```
-in terminal to bypass certificate verification
+in terminal to bypass certificate verification.
 
-3. 
-error when running gettweets.py script-
+
+# 3) error when running gettweets.py script
+```
 twitter.error.TwitterError: [{'message': 'Rate limit Exceeded', 'code': 88}]
-
+```
 a) Twitter imposes rate limiting based either on user tokens or application tokens. 
-Please see: https://developer.twitter.com/en/docs/basics/rate-limiting for a more detailed explanation of Twitter’s policies.
+Please read [this Twitter Documentation] (https://developer.twitter.com/en/docs/basics/rate-limiting) for a more detailed explanation of Twitter’s policies.
 b) Wait approximately 15 minutes, then try to run the command again. 
-c) This error also happens when gettweets.py attempts to scrape the tweets of a Twitter User who has no tweets on their timeline. 
-If this is the case, gettweets.py should be run on a valid, active twitter handle after the 15 minute rest period. 
+c) This error also happens when gettweets.py attempts to scrape the tweets of a Twitter User who has no tweets on their timeline. If this is the case, gettweets.py should be run on a valid, active twitter handle after the 15 minute rest period. 
 
 
