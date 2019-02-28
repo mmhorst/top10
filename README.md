@@ -7,10 +7,10 @@ Top 10 is a useful programmatic tool that displays the most frequently used cont
 ## Getting started:
 To download the latest version of Python please visit: https://www.python.org/downloads/ 
 
-The files [requirements.txt](/requirements.txt) and [setup.py](setup.py) have been provided to help installation run smoothly. Ensure that these files as well as the main script [gettweets.py](/gettweets.py) are placed in the same directory that is used to run other similar Python programs
+The files [requirements.txt](/requirements.txt) and [setup.py](setup.py) have been provided to help installation run smoothly. Ensure that these files as well as the main script [gettweets.py](/gettweets.py) are placed in the same directory that is used to run similar Python programs.
 
 ## Installation:
-Top 10 requires certain Python packages found in requirements.txt to run. To install these packages using the latest Package Installer for Python, run the command: 
+Top 10 requires certain Python packages found in [requirements.txt](/requirements.txt). To install these packages using the latest Package Installer for Python, run the command: 
 ```
 pip3 install -r requirements.txt
 ```
@@ -18,6 +18,7 @@ Another requirement is downloading the Natural Language Toolkit (NLTK), an open 
 ```
 python3 setup.py
 ```
+This will download all NLTK data and required packages onto your machine.
 
 ## Deployment:
 To use Top 10, run the following command:
@@ -29,11 +30,13 @@ Then follow the prompts given by Top 10 in the command terminal to specify Twitt
 ## Comparisons of interest:
 The following pairs of twitter handles and tweet numbers produce interesting results. What patterns can you uncover?
 
-@realdonaldtrump @barackobama 2800    (Donald Trump and Barack Obama)
+@realdonaldtrump @barackobama 2800    *(Donald Trump and Barack Obama)*
 
-@sensanders @senwarren 2450    (Bernie Sanders and Elizabeth Warren)
+@sensanders @senwarren 2450    *(Bernie Sanders and Elizabeth Warren)*
 
-@uwlinguistics @languagemit 700    (UW Linguistics and Ted Gibson's Language Lab at MIT)
+@uwlinguistics @languagemit 700    *(UW Linguistics and Ted Gibson's Language Lab at MIT)*
+
+@natgeo @ngkids *(National Geographic and National Geographic for Kids)*
 
 ## FAQS
 During the installation or useage of Top 10, you may encounter the following errors:
