@@ -2,7 +2,7 @@
 
 
 ## About:
-Top 10 is a useful programmatic tool that displays the most frequently-used content words by two distinct Twitter handles. It is intended for prelimiary data exploration of a user's latest tweets. Top 10 excludes retweets, @mentions, URL links, and hashtags to focus solely on the most informative words present in up to 3200 tweets.
+Top 10 is a useful programmatic tool that displays the most frequently-used content words by two distinct Twitter handles. It is intended for prelimiary data exploration of a Twitter user's latest tweets. Top 10 excludes retweets, @mentions, URL links, and hashtags to focus solely on the most informative words present in up to 3200 tweets.
 
 ## Getting started:
 To download the latest version of Python please visit: https://www.python.org/downloads/ 
