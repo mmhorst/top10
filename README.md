@@ -6,7 +6,7 @@ Top 10 is a useful programmatic tool that displays the most frequently-used cont
 
 ## Getting started:
 To download the latest version of Python please visit: https://www.python.org/downloads/
-The file [requirements.txt](/requirements.txt) and [setup.py](setup.py) have been provided to help installation run smoothly. Ensure that these files as well as the script gettweets.py are placed in the same directory that is used to run other similar Python programs
+The file [requirements.txt](/requirements.txt) and [setup.py](setup.py) have been provided to help installation run smoothly. Ensure that these files as well as the script [gettweets.py](/gettweets.py) are placed in the same directory that is used to run other similar Python programs
 
 ## Installation:
 Top 10 requires certain Python packages found in requirements.txt to run. To install these packages using the latest Package Installer for Python, run the command: 
