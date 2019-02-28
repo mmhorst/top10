@@ -36,11 +36,11 @@ The following pairs of twitter handles and tweet numbers produce interesting res
 
 @uwlinguistics @languagemit 700    *(UW Linguistics and Ted Gibson's Language Lab at MIT)*
 
-@natgeo @ngkids *(National Geographic and National Geographic for Kids)*
+@natgeo @ngkids 3150   *(National Geographic and National Geographic for Kids)*
 
-## FAQS
+## FAQS and Debugging:
 During the installation or useage of Top 10, you may encounter the following errors:
-# 1) error in command terminal
+### 1) error in command terminal
 ```
 ‘some package’ is not recognized as an internal or external command, operable program or batch file.
 ```
