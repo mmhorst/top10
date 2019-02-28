@@ -141,10 +141,10 @@ def main():
         print("You must enter a DIFFERENT handle")
         name2 = get_name(api, name1=False)
 
-    if name1.startswith('@'):
-        name1 = name1[1:]
-    if name2.startswith('@'):
-        name2 = name2[1:]
+    if not name1.startswith('@'):
+        name1 = "@{}".format(name1)
+    if not name2.startswith('@'):
+        name2 = "@{}".format(name2)
         
     number_of_tweets, orig_tweet_count = get_num()
 
@@ -160,11 +160,6 @@ def main():
     format_plot(ax1, top_ten1, percent1, first_date1, "black", name1, tweet_count1)
     top_ten2, percent2 = create_axes(tweet_tokens2)
     format_plot(ax2, top_ten2, percent2, first_date2, "purple", name2, tweet_count2)
-
-    if not name1.startswith('@'):
-        name1 = "@{}".format(name1)
-    if not name2.startswith('@'):
-        name2 = "@{}".format(name2)
         
     plt.suptitle("Most Common Words Tweeted by: \n{} and {}".format(name1, name2), fontsize = 16)
     
