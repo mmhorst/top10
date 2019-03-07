@@ -30,7 +30,7 @@ Then follow the prompts given by Top 10 in the command terminal to specify Twitt
 ## Comparisons of interest:
 The following pairs of twitter handles and tweet numbers produce interesting results. What patterns can you uncover?
 
-@realdonaldtrump @barackobama 2800    *(Donald Trump and Barack Obama)*
+@realdonaldtrump @barackobama 2700    *(Donald Trump and Barack Obama)*
 
 @sensanders @senwarren 2450    *(Bernie Sanders and Elizabeth Warren)*
 
