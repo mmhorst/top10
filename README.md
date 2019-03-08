@@ -31,16 +31,16 @@ Then follow the prompts given by Top 10 in the command terminal to specify Twitt
 The following pairs of twitter handles and tweet numbers produce interesting results. What patterns can you uncover?
 
 @realdonaldtrump @barackobama 2700    *(Donald Trump and Barack Obama)*
-[TrumpObama03072019.jpg](/TrumpObama03072019.jpg)
+[TrumpObama03072019.jpg](TrumpObama03072019.jpg)
 
 @sensanders @senwarren 2450    *(Bernie Sanders and Elizabeth Warren)*
-[SandersWarren03072019.jpg](/SandersWarren03072019.jpg)
+[SandersWarren03072019.jpg](SandersWarren03072019.jpg)
 
 @uwlinguistics @languagemit 700    *(UW Linguistics and Ted Gibson's Language Lab at MIT)*
-[UWLingMITLang03072019.jpg](/UWLingMITLang03072019.jpg)
+[UWLingMITLang03072019.jpg](UWLingMITLang03072019.jpg)
 
 @natgeo @ngkids 3150   *(National Geographic and National Geographic for Kids)*
-[NatGeoNatGeoKids03072019](/NatGeoNatGeoKids03072019)
+[NatGeoNatGeoKids03072019](NatGeoNatGeoKids03072019)
 
 ## FAQS and Debugging:
 During the installation or useage of Top 10, you may encounter the following errors:
